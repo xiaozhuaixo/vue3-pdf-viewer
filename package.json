@@ -1,0 +1,21 @@
+{
+  "name": "vue3-pdf-viewer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["vue3", "pdf", "pdf-viewer"],
+  "author": "H",
+  "license": "ISC",
+  "packageManager": "pnpm@9.14.2",
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.6",
+    "vue": "^3.5.13"
+  },
+  "dependencies": {
+    "pdfjs-dist": "^4.9.155"
+  }
+}

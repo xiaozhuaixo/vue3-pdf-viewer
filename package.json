@@ -4,6 +4,10 @@
   "description": "A lightweight Vue 3 PDF Viewer plugin with search and highlight features.",
   "main": "dist/vue3-pdf-viewer.umd.js",
   "module": "dist/vue3-pdf-viewer.es.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaozhuaixo/vue3-pdf-viewer.git"
+  },
   "keywords": [
     "vue3",
     "pdf",

@@ -1,14 +1,23 @@
 {
   "name": "vue3-pdf-viewer",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "A lightweight Vue 3 PDF Viewer plugin with search and highlight features.",
+  "main": "dist/vue3-pdf-viewer.umd.js",
+  "module": "dist/vue3-pdf-viewer.es.js",
   "keywords": ["vue3", "pdf", "pdf-viewer"],
   "author": "H",
-  "license": "ISC",
+  "license": "MIT",
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
   "packageManager": "pnpm@9.14.2",
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.1",

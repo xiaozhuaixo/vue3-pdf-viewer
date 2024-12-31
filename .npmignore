@@ -1,0 +1,11 @@
+# Ignore everything except dist and README.md
+*
+!dist/
+!README.md
+
+# Ignore specific files
+node_modules/
+.vscode/
+*.log
+*.lock
+pnpm-lock.yaml

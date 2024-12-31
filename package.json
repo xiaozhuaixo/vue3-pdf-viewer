@@ -1,5 +1,5 @@
 {
-  "name": "vue3-pdf-viewer",
+  "name": "@vue3pdfcomponent/vue3-pdf-viewer",
   "version": "1.0.0",
   "description": "A lightweight Vue 3 PDF Viewer plugin with search and highlight features.",
   "main": "dist/vue3-pdf-viewer.umd.js",

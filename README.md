@@ -6,11 +6,11 @@ Vue3 PDF Viewer is a lightweight Vue 3 plugin that allows embedding a PDF viewer
 
 Install via npm or yarn or pnpm:
 ```bash
-npm install vue3-pdf-viewer
+npm install @vue3pdfcomponent/vue3-pdf-viewer@1.0.0
 # or
-yarn add vue3-pdf-viewer
+yarn add @vue3pdfcomponent/vue3-pdf-viewer@1.0.0
 # or
-pnpm add vue3-pdf-viewer
+pnpm add @vue3pdfcomponent/vue3-pdf-viewer@1.0.0
 ```
 
 ## Usage
@@ -18,8 +18,8 @@ Import and register the plugin in main.js or main.ts:
 ```javascript
 import { createApp } from 'vue'
 import App from './App.vue'
-import Vue3PdfViewer from 'vue3-pdf-viewer'
-import 'vue3-pdf-viewer/dist/vue3-pdf-viewer.css'
+import Vue3PdfViewer from "@vue3pdfcomponent/vue3-pdf-viewer";
+import '@vue3pdfcomponent/vue3-pdf-viewer/dist/vue3-pdf-viewer.css'
 
 const app = createApp(App)
 app.use(Vue3PdfViewer)
@@ -43,8 +43,8 @@ const pdfUrl = ref('https://example.com/sample.pdf')
 ```
 You can import { Vue3PdfViewer } from 'vue3-pdf-viewer' components in your component code.
 ```vue
-import { Vue3PdfViewer } from 'vue3-pdf-viewer'
-import 'vue3-pdf-viewer/dist/vue3-pdf-viewer.css'
+import {Vue3PdfViewer} from "@vue3pdfcomponent/vue3-pdf-viewer";
+import '@vue3pdfcomponent/vue3-pdf-viewer/dist/vue3-pdf-viewer.css'
 ```
 
 # API
